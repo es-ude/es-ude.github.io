@@ -1,4 +1,138 @@
+
 body
 {
-	background-image: linear-gradient (to bottom, white,grey)
+	margin: 20;
+	background-image: linear-gradient(to bottom, white,#e7e6e2);
+	font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+	line-height: 1.5;
 }
+}
+/*links*/
+a:link{color:#003b7a;}
+a:visited{color:#937b56;}
+a:hover{color:#87ceeb;}
+a:active{color:red;}
+
+
+@keyframes example
+{
+	50%
+	{
+		padding: 5px;
+		background-color:#f9f06b;
+		
+	}
+	
+}
+:target
+{
+	
+	background-color:#c6d2ff;
+	/*border-radius: 0px 0px 0px 17px;*/
+	
+	animation: example 0.5s;
+	
+}
+	
+h2{
+	display: inline-flex;
+	border-width: 50px;
+	border-radius: 17px 17px 3px 3px;
+	color:white;
+	background-color:#003b7a;
+	padding: 5px;
+	margin: 10px;
+}
+
+.Projekt
+{
+	display: inline-block;
+	border-radius: 3px;
+	margin:1px;
+	padding-left:4px;
+	padding-right:4px;
+	color: white;
+	background-color: #e66100;
+}
+
+.Vorlesung
+{
+	display: inline-block;
+	border-radius: 3px;
+	margin:1px;
+	padding-left:4px;
+	padding-right:4px;
+	color: white;
+	background-color: #a51d2d;
+}
+
+.Übung
+{
+	display: inline-block;
+	border-radius: 3px;
+	margin:1px;
+	padding-left:4px;
+	padding-right:4px;
+	color: white;
+	background-color: #26a269;
+}
+
+header
+{
+	margin:-20;
+	margin-bottom:20;
+	background-color:#003b7a;
+	
+	
+}
+
+table
+{
+	border-spacing: 0;
+	border-collapse: separate;
+	border-radius: 17px;
+	border: 2px solid #003b7a;
+}
+
+table th:not(:last-child), table td:not(:last-child)
+{
+	border-right: 2px solid #003b7a;	
+}
+
+table>thead>tr:not(:last-child)>th, table>thead>tr:not(:last-child)>td,
+table>tbody>tr:not(:last-child)>th, table>tbody>tr:not(:last-child)>td,
+table>tfoot>tr:not(:last-child)>th, table>tfoot>tr:not(:last-child)>td,
+table>tr:not(:last-child)>td, table>tr:not(:last-child)>th,
+table>thead:not(:last-child), table>tbody:not(:last-child),
+table>tfoot:not(:last-child)
+{
+	border-bottom: 2px solid #003b7a;
+}
+
+
+td, th
+{
+	
+	padding: 3px;/*
+	border-style: solid;
+	border-width: 2px;
+	border-color: #003b7a;
+	border-collapse: collapse;
+	/* background-color:#e0cece;*/
+	
+}
+
+
+iframe
+{
+	border-radius: 17px;
+	border: 2px solid #003b7a;
+}
+
+.daneben
+{
+	float: left;
+	margin-right: 20;
+	margin-bottom: 20;
+}
+
