@@ -384,7 +384,7 @@ td, th
 
 .Pe::before
 {
-	content:"Practical project";
+	content:"Practical projekt";
 	display: inline;
 	border-radius: 3px;
 	margin:1px 2px;

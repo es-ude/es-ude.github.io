@@ -4,7 +4,7 @@
 <head>
 	
 	<title>Eingebettete Systeme</title>
-	<link rel="stylesheet" href="./css.css">
+	<link rel="stylesheet" href="../css.css">
 	<!--<script>
 		var zuf=Math.random();
 		var cssvar= document.querySelector(':root')
