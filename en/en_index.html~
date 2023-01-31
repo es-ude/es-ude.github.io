@@ -30,7 +30,7 @@
 				
 			</a>
 			
-			<a class="banel" id="sprache" href="/en/en_index.html">
+			<a class="banel" id="sprache" href="../index.html">
 				<img src="../de.svg" alt="Zur deutschen Version wechseln">	
 				<span>Deutsch</span>	
 			</a>
@@ -178,9 +178,9 @@
 	
 	
 	<footer>
-		<a href="https://www.uni-due.org/impressum">Impressum</a>
-		<a href="https://www.uni-due.org/cookie-richtlinie-eu/">Cookie-Richtline (EU)</a>
-		<a href="https://www.uni-due.org/datenschutzerklaerung/">Datenschutzbestimmungen</a>
+		<a href="https://www.uni-due.org/impressum">Imprint</a>
+		<a href="https://www.uni-due.org/cookie-richtlinie-eu/">Cookie Policy (EU)</a>
+		<a href="https://www.uni-due.org/datenschutzerklaerung/">Privacy policy</a>
 	</footer>
 	
 	
