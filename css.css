@@ -16,6 +16,24 @@ body
 	scroll-behavior:smooth;
 }
 
+@media screen and (prefers-color-scheme: dark)
+{
+	body
+	{
+		background-image: linear-gradient(rgb(30,30,30),black)!important;
+		color: ghostwhite !important ;
+		
+	}
+	.Tafel {background-color: rgb(50,50,50) !important; }
+	#udelogo, #twitter, #sprache{opacity: 0.98;}
+	.daneben {filter: brightness(0.6) invert(1) contrast(3) hue-rotate(200deg) saturate(0.3);}
+	.kontäner>div{background-image: linear-gradient(#555,#3e3e3e) !important;}
+	table{background-image: linear-gradient(#555,#3e3e3e)!important;}
+	table :target{background-color:#327ad7 !important;animation: aufleuchten 0.5s;}
+	@keyframes aufleuchten{50%{padding: 5px;background-color:#327ad7 !important;}
+}
+}
+
 /*links*/
 a:link 		{color: var(--udeblau)}
 a:visited	{color:#937b56;}
@@ -165,6 +183,8 @@ header>*>a:visited{color:white;}
 table
 {}
 
+.vtab{padding-left:0.5%;padding-right:0.5%;}
+
 .banel,.navtext{/*border:lightgreen 2px solid;*/}
 #navrechts, #navrechts>*
 {
@@ -309,7 +329,7 @@ tr:nth-child(even)
 {
 /*	background-color: rgba(217,217,217,0.28);*/
 background-image: linear-gradient(to left,rgba(217,217,217,0.28), rgba(230,230,230,0.28), rgba(217,217,217,0.28));
-	
+
 }
 
 
@@ -392,7 +412,7 @@ details
 	
 	
 }
-details p{
+details>p, details>ul {
 	
 	-webkit-animation: einblenden 0.5s;
 	animation: einblenden 0.5s;
